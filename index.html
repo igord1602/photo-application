@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/litebox.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="head">       
+        <a href="#slider">Слайдер</a>
+        <a href="#slideravto">АвтоСлайдер</a>
+        <a href="#gallery">Фото Галерея</a>
+        <a href="#litebox">Лайтбокс</a>
+    </div>
+    
+    <div class="slideshow-container">
+      <h1 id="slider" class="h1">Слайдер</h1>
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="https://picsum.photos/1100/500" style="width:100%; height: 780px;">
+          <div class="text"></div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="https://picsum.photos/1101/500" style="width:100%; height: 780px;">
+          <div class="text"></div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="https://picsum.photos/1102/500" style="width:100%; height: 780px;">
+          <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="https://picsum.photos/1103/500" style="width:100%; height: 780px;">
+            <div class="text"></div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="https://picsum.photos/1104/500" style="width:100%; height: 780px;">
+            <div class="text"></div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="https://picsum.photos/1105/500" style="width:100%; height: 780px;">
+            <div class="text"></div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="https://picsum.photos/1106/500" style="width:100%; height: 780px;">
+            <div class="text"></div>
+          </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      <div style=" padding-bottom: 28px; text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+      </div>
+
+    <div class="slideshow-containerauto">
+      <h1 id="slideravto" class="h1">АвтоСлайдер</h1>
+        <div class="mySlidesauto fade">
+          <div class="numbertext"></div>
+          <img src="https://picsum.photos/1100/500" style="width:100%; height: 780px;">
+          <div class="text"></div>
+        </div>
+      
+        <div class="mySlidesauto fade">
+          <div class="numbertext"></div>
+          <img src="https://picsum.photos/1101/500" style="width:100%; height: 780px;">
+          <div class="text"></div>
+        </div>
+      
+        <div class="mySlidesauto fade">
+          <div class="numbertext"></div>
+          <img src="https://picsum.photos/1102/500" style="width:100%; height: 780px;">
+          <div class="text"></div>
+        </div>
+        <div class="mySlidesauto fade">
+            <div class="numbertext"></div>
+            <img src="https://picsum.photos/1103/500" style="width:100%; height: 780px;">
+            <div class="text"></div>
+          </div>
+          <div class="mySlidesauto fade">
+            <div class="numbertext"></div>
+            <img src="https://picsum.photos/1104/500" style="width:100%; height: 780px;">
+            <div class="text"></div>
+          </div>
+          <div class="mySlidesauto fade">
+            <div class="numbertext"></div>
+            <img src="https://picsum.photos/1105/500" style="width:100%; height: 780px;">
+            <div class="text"></div>
+          </div>
+          <div class="mySlidesauto fade">
+            <div class="numbertext"></div>
+            <img src="https://picsum.photos/1106/500" style="width:100%; height: 780px;">
+            <div class="text"></div>
+          </div>
+      </div>
+      <br>
+      <div style=" padding-bottom: 28px; text-align:center">
+        <span class="dotauto" ></span>
+        <span class="dotauto" ></span>
+        <span class="dotauto" ></span>
+        <span class="dotauto" ></span>
+        <span class="dotauto" ></span>
+        <span class="dotauto" ></span>
+        <span class="dotauto" ></span>
+      </div>
+
+<!-- Контейнер для галереи изображений -->
+<div class="container">
+  <h1 id="gallery" class="h1">Галерея</h1>
+  <!-- Полноразмерные изображения с числовым текстом -->
+  <div class="mygallery">
+    <div class="numbertext">1 / 6</div>
+      <img src="https://picsum.photos/1100/400" style="width:100%">
+  </div>
+
+  <div class="mygallery">
+    <div class="numbertext">2 / 6</div>
+      <img src="https://picsum.photos/1101/400" style="width:100%">
+  </div>
+
+  <div class="mygallery">
+    <div class="numbertext">3 / 6</div>
+      <img src="https://picsum.photos/1102/400" style="width:100%">
+  </div>
+
+  <div class="mygallery">
+    <div class="numbertext">4 / 6</div>
+      <img src="https://picsum.photos/1103/400" style="width:100%">
+  </div>
+
+  <div class="mygallery">
+    <div class="numbertext">5 / 6</div>
+      <img src="https://picsum.photos/1104/400" style="width:100%">
+  </div>
+
+  <div class="mygallery">
+    <div class="numbertext">6 / 6</div>
+      <img src="https://picsum.photos/1105/400" style="width:100%">
+  </div>
+
+  <!-- Вперед и назад кнопки -->
+  <a class="prevgallery" onclick="plusgallery(-1)">&#10094;</a>
+  <a class="nextgallery" onclick="plusgallery(1)">&#10095;</a>
+
+  <!-- Текст изображения -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Миниатюры -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://picsum.photos/1100/400" style="width:100%" onclick="currentgallery(1)" alt="1">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://picsum.photos/1101/400" style="width:100%" onclick="currentgallery(2)" alt="2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://picsum.photos/1102/400" style="width:100%" onclick="currentgallery(3)" alt="3">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://picsum.photos/1103/400" style="width:100%" onclick="currentgallery(4)" alt="4">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://picsum.photos/1104/400" style="width:100%" onclick="currentgallery(5)" alt="5">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://picsum.photos/1105/400" style="width:100%" onclick="currentgallery(6)" alt="6">
+    </div>
+  </div>
+</div>
+
+    <!-- Изображения, используемые для открытия лайтбокса -->
+    <div class="rowlitebox">
+      <h1 id="litebox" class="h1">Лайтбокс</h1>
+      <div class="columnlitebox">
+        <img style="width: 460px; height: 300px;" src="https://picsum.photos/1100/401" onclick="openModal();currentlitebox(1)" class="hover-shadow cursor">
+      </div>
+      <div class="columnlitebox">
+        <img style="width: 460px; height: 300px;" src="https://picsum.photos/1101/402" onclick="openModal();currentlitebox(2)" class="hover-shadow cursor">
+      </div>
+      <div class="columnlitebox">
+        <img style="width: 460px; height: 300px;" src="https://picsum.photos/1102/403" onclick="openModal();currentlitebox(3)" class="hover-shadow cursor">
+      </div>
+      <div class="columnlitebox">
+        <img style="width: 460px; height: 300px;" src="https://picsum.photos/1103/404" onclick="openModal();currentlitebox(4)" class="hover-shadow cursor">
+      </div>
+    </div>
+    
+    <!-- Модальный / Лайтбокс -->
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+    
+        <div class="mylitebox">
+          <div class="numbertext">1 / 4</div>
+          <img src="https://picsum.photos/1100/401" style="width:100%">
+        </div>
+    
+        <div class="mylitebox">
+          <div class="numbertext">2 / 4</div>
+          <img src="https://picsum.photos/1101/402" style="width:100%">
+        </div>
+    
+        <div class="mylitebox">
+          <div class="numbertext">3 / 4</div>
+          <img src="https://picsum.photos/1102/403" style="width:100%">
+        </div>
+    
+        <div class="mylitebox">
+          <div class="numbertext">4 / 4</div>
+          <img src="https://picsum.photos/1103/404" style="width:100%">
+        </div>
+    
+        <!-- Вперед/назад элементы управления -->
+        <a class="prevlitebox" onclick="pluslitebox(-1)">&#10094;</a>
+        <a class="nextlitebox" onclick="pluslitebox(1)">&#10095;</a>
+    
+        <!-- Текст подписи -->
+        <div class="caption-container">
+          <p id="captionlitebox"></p>
+        </div>
+    
+        <!-- Элементы управления миниатюрами изображений -->
+        <div class="columnlitebox">
+          <img style="width: 300px; height: 200px;" class="demolitebox demo cursor" src="https://picsum.photos/1100/401" onclick="currentlitebox(1)" alt="">
+        </div>
+    
+        <div class="columnlitebox">
+          <img style="width: 300px; height: 200px;" class="demolitebox demo cursor" src="https://picsum.photos/1101/402" onclick="currentlitebox(2)" alt="">
+        </div>
+    
+        <div class="columnlitebox">
+          <img style="width: 300px; height: 200px;" class="demolitebox demo cursor" src="https://picsum.photos/1102/403" onclick="currentlitebox(3)" alt="">
+        </div>
+    
+        <div class="columnlitebox">
+          <img style="width: 300px; height: 200px;" class="demolitebox demo cursor" src="https://picsum.photos/1103/404" onclick="currentlitebox(4)" alt="">
+        </div>
+      </div>
+    </div>
+
+<script src="/js/slider.js"></script>
+<script src="/js/sliderauto.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/litebox.js"></script>
+<script src="/js/clickscroll.js"></script>
+</body>
+</html>
